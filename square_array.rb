@@ -1,5 +1,6 @@
 def square_array(numbers)
-  numbers = [1,2,3].each do
+  numbers = [1,2,3]
+  numbers.each do **
     puts "#{numbers}"
   end
 end
